@@ -1,4 +1,4 @@
-const WEATHER = prompt('¿Ingresa el clima?')
+const WEATHER = prompt('Ingresa el clima')
 
 if (WEATHER === 'lluvioso') {
     console.log('esta nublado')
@@ -9,6 +9,6 @@ if (WEATHER === 'lluvioso') {
 } else if (WEATHER === 'nevando') {
     console.log('esta lluvioso')
 } else {
-    const WEATHERNEW = prompt('Describe el clima')
+    const NEW_WEATHER = prompt('Describe el clima')
     console.log('asi esta')
 } 
