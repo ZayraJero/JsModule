@@ -1,1 +1,5 @@
-console.log(Hola)
+let age = 10
+
+age += 1
+
+console.log(age)
