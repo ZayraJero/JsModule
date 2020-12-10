@@ -21,6 +21,19 @@ for (i = 0; i < text.length; i++) {
         count++
     }
 }
-console.log(`la frase tiene ${count} espacios`)
+// console.log(`la frase tiene ${count} espacios`)
 // imprimir en consola la cantidad de vocales que se encuentran en una cadena de texto
 // “Hola mundo” -> 4
+const txt = 'Hola mundo'
+let count_new = 0
+const vocals = ['a', 'e', 'i', 'o', 'u']
+
+for (let i = 0; i < txt.length; i++) {
+    for (let j = 0; j < vocals.length; j++) {
+        if (txt[i].includes(vocals[j])) {
+            count_new++
+        }
+    }
+}
+
+console.log(`la frase tiene ${count_new} vocales`)
