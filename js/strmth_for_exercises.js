@@ -13,6 +13,14 @@ for (let i = 1; i < 100; i++) {
 }
 // imprimir en consola la cantidad de espacios que se encuentran en una cadena de texto
 // “en un lugar de la mancha” -> 5
+const text = 'En un lugar de la mancha'
+let count = 0
 
+for (i = 0; i < text.length; i++) {
+    if (text[i] === ' ') {
+        count++
+    }
+}
+console.log(`la frase tiene ${count} espacios`)
 // imprimir en consola la cantidad de vocales que se encuentran en una cadena de texto
 // “Hola mundo” -> 4
