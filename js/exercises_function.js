@@ -37,7 +37,7 @@ function textSpace() {
 }
 
 // imprimir en consola la cantidad de vocales que se encuentran en una cadena de texto
-function vocals(txt) {
+function vocals() {
     const txt = 'Hola mundo'
     let count_new = 0
     const vocals = ['a', 'e', 'i', 'o', 'u']
@@ -53,7 +53,7 @@ function vocals(txt) {
 }
 
 // calificacion con letras
-function grades(EXAM_GRADE) {
+function grades() {
     const EXAM_GRADE = prompt('Ingresa la calificación del examen (0 a 100)')
     if (EXAM_GRADE >= 90) {
         console.log('Tu calificación es: A')
@@ -72,7 +72,7 @@ function grades(EXAM_GRADE) {
 }
 
 //clima
-function weatherDay(WEATHER) {
+function weatherDay() {
     const WEATHER = prompt('Ingresa el clima')
 
     switch (WEATHER) {
@@ -95,7 +95,7 @@ function weatherDay(WEATHER) {
 }
 
 //par o impar
-function number(EVEN_ODD) {
+function number() {
     const EVEN_ODD = prompt('Ingresa un número entre 1 y 100')
 
     EVEN_ODD % 2 === 0 ?
