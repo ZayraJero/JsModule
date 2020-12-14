@@ -35,6 +35,13 @@ function calcGeometry(radius) {
  * temperatureConverter(100,"C")
  * -> 100º Celsius equivalen a 212º fahrenheit
  */
+function temperatureConverter(num, grados) {
+    if (grados === 'C') {
+        console.log(`${num} Celsius equivalen a ${(num * (9 / 5)) + 32} Fahrenheit`)
+    } else {
+        console.log(`${num} Fahrenheit equivalen a ${(num - 32) * (5 / 9)} `)
+    }
+}
 /*
  * Escribir una funcion que calcule el factorial de un número
  * getFactorial(10)
