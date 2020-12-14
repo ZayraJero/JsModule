@@ -22,6 +22,13 @@ function calculateDogAge(nameDog, ageDog) {
  * calcGeometry(4)
  * -> l area del circulo es NN y la circunferencia es de NN
  */
+function calcGeometry(radius) {
+    const PI = 3.1416
+    const circleArea = PI * (radius * radius)
+    const circumfere = 2 * PI * radius
+
+    console.log(`El área del circulo es: ${circleArea} y la circunferencia es: ${circumfere}`)
+}
 /**
  * Crear una función que convierta los grados celsius en fahrenheit y viceversa
  * debe recibir la temparatura y si la temperatura esta en Celsius o Fahrenheit
