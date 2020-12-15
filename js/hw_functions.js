@@ -47,3 +47,10 @@ function temperatureConverter(num, grados) {
  * getFactorial(10)
  * -> 3628800
  */
+function getFactorial(number) {
+    let total = 1
+    for (let i = 1; i <= number; i++) {
+        total *= i
+    }
+    console.log(`El factorial de ${number} es ${total}`)
+}
