@@ -11,7 +11,6 @@ function calculateDogAge(nameDog, ageDog) {
     } else if (ageDog === 2) {
         console.log(`${nameDog} tiene 24 años caninos`)
     } else {
-        ageDog >= 3
         ageDog += 4
         console.log(`${nameDog} tiene ${ageDog * 4} años caninos`)
     }
