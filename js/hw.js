@@ -6,12 +6,13 @@
 // redireccionarlo a /user.html
 
 const cookieUser = () => {
-    if (document.cookie.includes) {
-
+    if (document.cookie.includes('sessionuser=true')) {
+        window.open("/login.html", "login")
     } else {
-
+        window.open("/user.html", "user")
     }
 }
+window.addEventListener('load', cookieUser)
 
 // 2. 
 // Crear un div con un mensaje de
