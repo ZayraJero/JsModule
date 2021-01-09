@@ -1,5 +1,5 @@
 body{
-    background-color: whitesmoke;
+    background-color: black;
 }
 
 .box{
@@ -39,4 +39,10 @@ body{
     #showAll{
         display: none;
     }
+}
+
+.desktop{
+    color: blue;
+    background: coral;
+    font-size: 30px;
 }

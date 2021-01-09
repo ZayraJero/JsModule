@@ -14,5 +14,17 @@
 // sino
 // desaparecer el mensaje
 
+const desktop = () => {
+    if (window.innerWidth <= 767) {
+        document.querySelector('.desktop').classList.remove('d-block')
+        document.querySelector('.desktop').classList.add('d-none')
+    } else {
+        document.querySelector('.desktop').classList.remove('d-none')
+        document.querySelector('.desktop').classList.add('d-block')
+    }
+}
+
+window.addEventListener('resize', desktop)
+
 // utilizar css
 // no usar inline styles
