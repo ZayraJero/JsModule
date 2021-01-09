@@ -5,6 +5,14 @@
 // si tiene la cookie sessionuser
 // redireccionarlo a /user.html
 
+const cookieUser = () => {
+    if (document.cookie.includes) {
+
+    } else {
+
+    }
+}
+
 // 2. 
 // Crear un div con un mensaje de
 // "Este sitio se ve mejor en desktop"
