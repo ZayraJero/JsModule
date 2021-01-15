@@ -8,13 +8,22 @@
 </head>
 
 <body>
+    $(function(){
+    console.log('prueba')
 
-    <h1>jQuery intro</h1>
+    $('body h1').after(`<div></div>`)
+    $('body').find(`div`).addClass('list')
+
+    $('body div').after(`
     <ol>
-        <li class="list_item">item </li>
-        <li class="list_item">item </li>
-        <li class="list_item">item </li>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
     </ol>
+    `)
+    $('body ol li').addClass(`list__item`)
+    })
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
