@@ -14,8 +14,8 @@ const createNewUser = () => {
     xhttp.open('POST', 'https://koders1gpython-default-rtdb.firebaseio.com/zayra/users/.json')
     xhttp.send(
         JSON.stringify({
-            name: "Rubén",
-            lastname: "Flores",
+            name: "Mónica",
+            lastname: "Valencia",
             urlPhoto: "https://picsum.photos/200/300"
         })
     )
