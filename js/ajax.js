@@ -62,6 +62,18 @@ $(function () {
         })
     }
 
+    // $.ajax({
+    //     url: "https://koders1gpython-default-rtdb.firebaseio.com/zayra/users/.json",
+    //     method: 'DELETE'
+    // }).done(function (response) {
+    //     console.log(response)
+    // }).fail(function (err) {
+    //     console.log(err)
+    //     console.log(err.status)
+    //     console.log(err.statusText)
+    //     console.log('todo mal')
+    // })
+
 
 
     // listado
