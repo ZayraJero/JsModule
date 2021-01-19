@@ -2,7 +2,6 @@
 
 // Create user
 const createNewUser = () => {
-    // https://koders1gpython-default-rtdb.firebaseio.com/jorge
     let xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {
@@ -12,12 +11,12 @@ const createNewUser = () => {
             return false
         }
     }
-    xhttp.open('POST', 'https://koders1gpython-default-rtdb.firebaseio.com/jorge/users/.json')
+    xhttp.open('POST', 'https://koders1gpython-default-rtdb.firebaseio.com/zayra/users/.json')
     xhttp.send(
         JSON.stringify({
-            name: "Jorge",
-            lastname: "Camarillo",
-            urlPhoto: "https://loremflickr.com/320/240/person"
+            name: "Rubén",
+            lastname: "Flores",
+            urlPhoto: "https://picsum.photos/200/300"
         })
     )
 }
@@ -40,7 +39,6 @@ const readUser = () => {
 
 // Update and replace
 const updateAndReplaceUser = (idUser) => {
-    // https://koders1gpython-default-rtdb.firebaseio.com/jorge
     let xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {
@@ -51,12 +49,12 @@ const updateAndReplaceUser = (idUser) => {
         }
     }
 
-    xhttp.open('PUT', `https://koders1gpython-default-rtdb.firebaseio.com/jorge/users/${idUser}.json`)
+    xhttp.open('PUT', `https://koders1gpython-default-rtdb.firebaseio.com/zayra/users/${idUser}.json`)
     xhttp.send(
         JSON.stringify({
-            name: "Jorge",
-            lastname: "Camarillo",
-            urlPhoto: "https://loremflickr.com/320/240/person"
+            name: "Zayra",
+            lastname: "Jerónimo",
+            urlPhoto: "https://picsum.photos/200/300"
         })
     )
 }
@@ -73,17 +71,18 @@ const updateAndModifyUser = (idUser) => {
             return false
         }
     }
-    xhttp.open('PATCH', `https://koders1gpython-default-rtdb.firebaseio.com/jorge/users/${idUser}.json`)
+    xhttp.open('PATCH', `https://koders1gpython-default-rtdb.firebaseio.com/zayra/users/${idUser}.json`)
     xhttp.send(
         JSON.stringify({
-            name: "Jorge Luis"
+            name: "Zayra",
+            lastname: "Jerónimo",
+            urlPhoto: "https://picsum.photos/200/300"
         })
     )
 }
 
 // Delete 
 const deleteUser = (idUser) => {
-    // https://koders1gpython-default-rtdb.firebaseio.com/jorge
     let xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {
@@ -93,7 +92,7 @@ const deleteUser = (idUser) => {
             return false
         }
     }
-    xhttp.open('DELETE', `https://koders1gpython-default-rtdb.firebaseio.com/jorge/users/${idUser}.json`)
+    xhttp.open('DELETE', `https://koders1gpython-default-rtdb.firebaseio.com/zayra/users/${idUser}.json`)
     xhttp.send()
 
 }

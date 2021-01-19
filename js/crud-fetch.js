@@ -135,25 +135,25 @@ if (btn__send__form) {
 
 
 // create
-// fetch(`https://koders1gpython-default-rtdb.firebaseio.com/jorge/users/.json`, {
+// fetch(`https://koders1gpython-default-rtdb.firebaseio.com/zayra/users/.json`, {
 //     method: 'POST',
 //     headers: {
 //         'Content-Type': 'application/json',
 //     },
 //     body: JSON.stringify({
 //         id: 1,
-//         name: "Jorge",
-//         lastname: "Camarillo",
-//         urlPhoto: "https://loremflickr.com/320/240/person"
+//         name: "Zayra",
+//         lastname: "Jerónimo",
+//         urlPhoto: "https://picsum.photos/200/300"
 //     })
 // })
-// .then(response => {
-//     console.log(response)
-//     return response.json()
-// })
-// .then(newUser => {
-//     console.log(newUser)
-// })
+//     .then(response => {
+//         console.log(response)
+//         return response.json()
+//     })
+//     .then(newUser => {
+//         console.log(newUser)
+//     })
 
 
 // // Update

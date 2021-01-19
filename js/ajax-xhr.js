@@ -106,9 +106,8 @@ const createUser = () => {
     request.open('POST', `${urlDB}users/.json`)
     request.send(
         JSON.stringify({
-            id: 2,
-            name: "Jorge",
-            lastname: "Camarillo",
+            name: "Zayra",
+            lastname: "Jerónimo",
             urlPhoto: "https://loremflickr.com/320/240/person"
         })
     )
