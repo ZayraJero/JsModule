@@ -86,7 +86,4 @@ $(function () {
     // delete User
     // DELETE
 
-
-
-
 })
