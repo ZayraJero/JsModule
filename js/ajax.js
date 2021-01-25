@@ -74,6 +74,45 @@ $(function () {
     //     console.log('todo mal')
     // })
 
+    //PARA VER LO QUE TIENE EL ID
+    // let url = new URLSearchParams(location.search)
+    // let id = url.get('id')
+
+    //CREAR UN POST
+    // let userObject = {
+    //     title: 'titulo del post',
+    //     conteent: 'lorem    .... ',
+    //     organization: 'kodemia',
+    //     author: 'nombreautor',
+    //     urlAuthor: 'url',
+    //     dateCreated: 'dd/mm/yyyy',
+    //     urlPhoto: 'url',
+    //     tag: 'tag',
+    //     minsToRead: '1'
+    // }
+    // $.ajax({
+    //     url: "https://retofrontend-634f2-default-rtdb.firebaseio.com/posts/.json",
+    //     method: 'POST',
+    //     data: JSON.stringify(userObject)
+    // }).done(function(response) {
+    //     console.log(response)
+    // }).fail(function(err){
+    //     console.log(err)
+    // })
+
+    //CREAR UN TAG
+    // let tagObject = {
+    //     title: 'mytag'
+    // }
+    // $.ajax({
+    //     url: "https://retofrontend-634f2-default-rtdb.firebaseio.com/tags/.json",
+    //     method: 'POST',
+    //     data: JSON.stringify(tagObject)
+    // }).done(function(response) {
+    //     console.log(response)
+    // }).fail(function(err){
+    //     console.log(err)
+    // })
 
 
     // listado
